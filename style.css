@@ -1,0 +1,86 @@
+body {
+  background-color: #f4d04e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Figtree ExtraBold";
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+p {
+  font-family: "Figtree Medium";
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+.blog-card {
+  background-color: #ffff;
+  width: 29%;
+  border: solid 3px;
+  border-color: black;
+  border-radius: 20px;
+  text-align: left;
+  padding: 2%;
+  box-shadow: 10px 10px 0px;
+  transform: scale(0.8);
+}
+
+.blog-image {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.blog-info {
+  width: 100%;
+  text-align: left;
+}
+
+.learning {
+  background-color: #f4d04e;
+  padding: 8px 12px 8px 12px;
+  border-radius: 3px;
+  font-family: "Figtree ExtraBold";
+  font-size: 14px;
+}
+
+.publish-date {
+  font-size: 16px;
+  margin-top: 24px;
+}
+
+.topic {
+  font-size: 24px;
+}
+
+.topic:hover {
+  color: #f4d04e;
+  cursor: pointer;
+}
+
+.content {
+  font-size: 18px;
+  color: #6b6b6b;
+}
+
+.profile-avatar,
+.profile-name {
+  display: inline-block;
+}
+
+.profile-avatar {
+  width: 10%;
+  vertical-align: middle;
+}
+
+.profile-name {
+  font-size: 16px;
+  margin-left: 15px;
+  vertical-align: middle;
+}
