@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test6</title>
+  </head>
+  <body></body>
+  <script>
+    let Grade;
+    let studentScore = Number(prompt("What is your test score? "));
+
+    if (studentScore >= 90) {
+      Grade = "A";
+    } else if (studentScore < 90 && studentScore >= 80) {
+      Grade = "B";
+    } else if (studentScore >= 70) {
+      Grade = "C";
+    } else if (studentScore >= 60) {
+      Grade = "D";
+    } else {
+      Grade = "F";
+    }
+
+    console.log("Your grade is: " + Grade);
+  </script>
+</html>

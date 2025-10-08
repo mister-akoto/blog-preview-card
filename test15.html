@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test 15</title>
+  </head>
+  <body></body>
+  <script>
+    let numberOfMovies = Number(prompt("How many movies do you want to watch?"));
+    let movieLength = Number(prompt("How long is each movie in minutes?"));
+
+    let totalLenghtInMinutes = movieLength * numberOfMovies;
+
+    let Hour = Math.floor(totalLenghtInMinutes / 60);
+    let minute = totalLenghtInMinutes % 60;
+
+
+    console.log("The total watch time will be " + Hour + ":" + minute);
+  </script>
+</html>

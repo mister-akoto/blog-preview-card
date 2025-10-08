@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test 20</title>
+  </head>
+  <body></body>
+  <script>
+    let nickel = 0.05;
+    let penny = 0.01;
+    let dime = 0.1;
+    let quarter = 0.25;
+
+    let numberOfPennies = Number(prompt("How many Pennies do you have?"));
+    let numberOfNickels = Number(prompt("How many Nickels do you have?"));
+    let numberOfDimes = Number(prompt("How many Dimes do you have?"));
+    let numberOfQuarter = Number(prompt("How many Quarters do you have?"));
+
+    let totalAmount =
+      numberOfPennies * penny +
+      numberOfNickels * nickel +
+      numberOfDimes * dime +
+      numberOfQuarter * quarter;
+
+    totalAmount = totalAmount.toFixed(2);
+
+    console.log("You have a total of $" + totalAmount);
+  </script>
+</html>

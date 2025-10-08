@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test 1</title>
+  </head>
+  <body></body>
+
+  <script>
+    const lemonadePrice = 1.5;
+    const cupCost = 0.5;
+
+    let profitOnOneCup = lemonadePrice - cupCost;
+    let cupsOfLemonade = prompt("How many cups did you sell today? ");
+
+    function calculateTotalProfit(cups, profit) {
+      let totalProfit = cups * profit;
+      return totalProfit;
+    }
+
+    console.log(
+      "Your Total profit is",
+      calculateTotalProfit(cupsOfLemonade, profitOnOneCup)
+    );
+  </script>
+</html>

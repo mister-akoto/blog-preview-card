@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test 19</title>
+  </head>
+  <body></body>
+  <script>
+    let numberOfStudents = Number(prompt("Number of students: "));
+    let numberOfDeskInARows = Number(prompt("Number of Desks in a Row: "));
+
+
+    let numberOfFullRow = Math.ceil(numberOfStudents / numberOfDeskInARows);
+    let numberOfPartialRows = numberOfStudents % numberOfDeskInARows;
+
+
+    console.log("Number of rows needed: " + numberOfFullRow);
+    console.log(
+      "There will be " +
+        numberOfPartialRows +
+        " students in a partially filled row"
+    );
+  </script>
+</html>

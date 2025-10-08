@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test 23</title>
+  </head>
+  <body></body>
+  <script>
+
+    let principal = Number(prompt("Enter your principal amount: "));
+    let interestRate = Number(prompt("Enter the interest rate: "));
+    let numberOfYears = Number(
+      prompt("Enter the number of years for investment: ")
+    );
+
+
+    let Interest = (principal * interestRate * numberOfYears) / 100;
+    Interest = Interest.toFixed(2);
+    console.log("The total interest is: $" + Interest);
+  </script>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test 3</title>
+  </head>
+  <body></body>
+  <script>
+    let number = Number(
+      prompt("Enter a number to check if it's even or odd: ")
+    );
+
+    function checkEvenOrOdd() {
+      if (Number.isInteger(number / 2) === Number.isInteger(number)) {
+        return console.log(number + " is an even number");
+      } else {
+        return console.log(number + " is an odd number");
+      }
+    }
+
+    checkEvenOrOdd();
+  </script>
+</html>

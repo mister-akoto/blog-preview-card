@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test16</title>
+  </head>
+  <body></body>
+  <script>
+    let totalBill = Number(prompt("What is the total bill amount? "));
+    let tipPercent = Number(prompt("What is the tip percentage?"));
+    let numberOfPeople = Number(prompt("How many people are there?"));
+
+
+    let amountToBePaid = totalBill + (totalBill * tipPercent) / 100;
+    let amountEachPersonPays = amountToBePaid / numberOfPeople;
+    console.log("Each person pays $" + amountEachPersonPays);
+  </script>
+</html>

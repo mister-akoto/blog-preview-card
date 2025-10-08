@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test 4</title>
+  </head>
+  <body></body>
+  <script>
+    const sliceOfAPizza = 8;
+    let numberOfPizzas = Number(prompt("How many pizzas did you order? "));
+    let numberOfAttendees = Number(prompt("How many people are at the party? "));
+
+    function calculateSlicesPerPerson(pizzas, attendees) {
+      let totalSlices = pizzas * sliceOfAPizza;
+      let numberOfSlicesPerPerson = Math.floor(totalSlices / attendees);
+      let remainingPizza = totalSlices % attendees;
+      return console.log(
+        "Each person will receive " +
+          numberOfSlicesPerPerson +
+          " and there will be " +
+          remainingPizza +
+          " slices left"
+      );
+    }
+
+    calculateSlicesPerPerson(numberOfPizzas, numberOfAttendees);
+  </script>
+</html>
